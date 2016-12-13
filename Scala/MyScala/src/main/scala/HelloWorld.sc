@@ -11,7 +11,6 @@ object HellowWorld
       gcd(b, a % b)
   }
 
-
   //Not Tail Recursion
   def factorialNRec(n: Int): Int={
     if (n == 0)

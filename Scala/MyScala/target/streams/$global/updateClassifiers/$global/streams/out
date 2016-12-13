@@ -366,53 +366,23 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /Users/Bin/.ivy2/local/org.scala-lang/scala-library/2.12.1/srcs/scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.1!scala-library.jar(src) (3086ms)
-[debug] 		tried /Users/Bin/.ivy2/local/org.scala-lang/scala-reflect/2.12.1/srcs/scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar(src) (1419ms)
-[debug] 		tried /Users/Bin/.ivy2/local/org.scala-lang/scala-compiler/2.12.1/srcs/scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar(src) (3053ms)
-[debug] 		tried /Users/Bin/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.6/srcs/scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (1138ms)
-[debug] 		tried /Users/Bin/.ivy2/local/jline/jline/2.14.1/srcs/jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.14.1!jline.jar(src) (1205ms)
-[debug] :: resolution report :: resolve 35ms :: artifacts dl 9905ms
-[debug] 	report for default#myscala$sources_2.12;1.0 compile produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-compile.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 runtime produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-runtime.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 test produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-test.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 provided produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-provided.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 optional produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-optional.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 compile-internal produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-compile-internal.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 runtime-internal produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-runtime-internal.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 test-internal produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-test-internal.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 plugin produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-plugin.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 sources produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-sources.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 docs produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-docs.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 pom produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-pom.xml
-[debug] 	report for default#myscala$sources_2.12;1.0 scala-tool produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/target/resolution-cache/reports/default-myscala$sources_2.12-scala-tool.xml
-[debug] 	resolve done (35ms resolve - 9905ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar(src)
+[debug] :: resolution report :: resolve 47ms :: artifacts dl 0ms
+[debug] 	report for default#myscala$sources_2.12;1.0 compile produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-compile.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 runtime produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-runtime.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 test produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-test.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 provided produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-provided.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 optional produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-optional.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 compile-internal produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-compile-internal.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 runtime-internal produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-runtime-internal.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 test-internal produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-test-internal.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 plugin produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-plugin.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 sources produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-sources.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 docs produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-docs.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 pom produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-pom.xml
+[debug] 	report for default#myscala$sources_2.12;1.0 scala-tool produced in D:\OpenSource\MyStudyProj\Scala\MyScala\target\resolution-cache\reports\default-myscala$sources_2.12-scala-tool.xml
+[debug] 	resolve done (47ms resolve - 0ms download)

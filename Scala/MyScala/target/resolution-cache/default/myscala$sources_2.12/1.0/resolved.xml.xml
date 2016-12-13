@@ -4,7 +4,7 @@
 		module="myscala$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161211012732"
+		publication="20161213122811"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

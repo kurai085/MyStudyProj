@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/}myscala-build...
+[info] Updating {file:/D:/OpenSource/MyStudyProj/Scala/MyScala/project/}myscala-build...
 [debug] :: resolving dependencies :: default#myscala-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6074,19 +6074,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1082ms :: artifacts dl 29ms
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT compile produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-compile.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT runtime produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-runtime.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT test produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-test.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT provided produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-provided.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT optional produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-optional.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT compile-internal produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-compile-internal.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT runtime-internal produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-runtime-internal.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT test-internal produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-test-internal.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT plugin produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-plugin.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT sources produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-sources.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT docs produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-docs.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT pom produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-pom.xml
-[debug] 	report for default#myscala-build;0.1-SNAPSHOT scala-tool produced in /Users/Bin/Documents/IntelliJWorkSpace/MyScala/project/target/resolution-cache/reports/default-myscala-build-scala-tool.xml
-[debug] 	resolve done (1082ms resolve - 29ms download)
+[debug] :: resolution report :: resolve 1287ms :: artifacts dl 31ms
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT compile produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-compile.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT runtime produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-runtime.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT test produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-test.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT provided produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-provided.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT optional produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-optional.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT compile-internal produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-compile-internal.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT runtime-internal produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-runtime-internal.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT test-internal produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-test-internal.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT plugin produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-plugin.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT sources produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-sources.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT docs produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-docs.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT pom produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-pom.xml
+[debug] 	report for default#myscala-build;0.1-SNAPSHOT scala-tool produced in D:\OpenSource\MyStudyProj\Scala\MyScala\project\target\resolution-cache\reports\default-myscala-build-scala-tool.xml
+[debug] 	resolve done (1287ms resolve - 31ms download)
 [info] Done updating.
