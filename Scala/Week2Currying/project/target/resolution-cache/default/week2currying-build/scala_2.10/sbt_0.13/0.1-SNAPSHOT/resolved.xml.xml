@@ -4,7 +4,7 @@
 		module="week2currying-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161213125918"
+		publication="20161213235647"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

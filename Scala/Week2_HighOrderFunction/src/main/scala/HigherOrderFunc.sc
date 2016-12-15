@@ -4,7 +4,7 @@ object HigherOrder{
   def sum(f: Int => Int,a: Int, b:Int)={
   //factorial  //factorial
    def loop(a: Int, acc: Int): Int = {
-     println(acc,a)
+     //println(acc,a)
      if (a > b) //Clojure
        acc
      else
