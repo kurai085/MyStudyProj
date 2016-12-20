@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/}week2_highorderfunction-build...
+[info] Updating {file:/D:/OpenSource/MyStudyProj/Scala/Week2_HighOrderFunction/project/}week2_highorderfunction-build...
 [debug] :: resolving dependencies :: default#week2_highorderfunction-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6074,19 +6074,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1947ms :: artifacts dl 40ms
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT compile produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-compile.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT runtime produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-runtime.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT test produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-test.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT provided produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-provided.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT optional produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-optional.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT compile-internal produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-compile-internal.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT runtime-internal produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-runtime-internal.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT test-internal produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-test-internal.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT plugin produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-plugin.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT sources produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-sources.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT docs produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-docs.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT pom produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-pom.xml
-[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT scala-tool produced in /Users/Bin/Documents/MyGitHub/MyStudyProj/Scala/Week2_HighOrderFunction/project/target/resolution-cache/reports/default-week2_highorderfunction-build-scala-tool.xml
-[debug] 	resolve done (1947ms resolve - 40ms download)
+[debug] :: resolution report :: resolve 1504ms :: artifacts dl 34ms
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT compile produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-compile.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT runtime produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-runtime.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT test produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-test.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT provided produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-provided.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT optional produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-optional.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT compile-internal produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-compile-internal.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT runtime-internal produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-runtime-internal.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT test-internal produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-test-internal.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT plugin produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-plugin.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT sources produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-sources.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT docs produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-docs.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT pom produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-pom.xml
+[debug] 	report for default#week2_highorderfunction-build;0.1-SNAPSHOT scala-tool produced in D:\OpenSource\MyStudyProj\Scala\Week2_HighOrderFunction\project\target\resolution-cache\reports\default-week2_highorderfunction-build-scala-tool.xml
+[debug] 	resolve done (1504ms resolve - 34ms download)
 [info] Done updating.
