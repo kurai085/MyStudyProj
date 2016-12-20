@@ -4,7 +4,7 @@
 		module="functionsanddata$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161215230931"
+		publication="20161217161912"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

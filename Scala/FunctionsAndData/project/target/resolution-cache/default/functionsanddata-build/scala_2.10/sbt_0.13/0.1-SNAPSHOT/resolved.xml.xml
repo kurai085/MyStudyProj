@@ -4,7 +4,7 @@
 		module="functionsanddata-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161215230917"
+		publication="20161217161826"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
