@@ -1,3 +1,36 @@
+
+/*
+ Case Class
+ : This Class is created object without new syntax
+ */
+
+abstract class Term
+
+case class Var(name: String) extends Term
+case class Fun(arg: String, body: Term) extends Term
+case class Point(x: Int, y: Int)
+//x, y가 멤버로 등록 되는듯
+val item = Point(1,2)
+var item2 = Point(2,4)
+item.x
+item.y
+
+item2.x
+item2.y
+////////////////////////////////////////////////////////
+
+
+def matchTest(x: Int) : Int = x match{
+  case 1 => 2
+  case 2 => 3
+  case 3 => 4
+}
+
+
+
+/////////////////////////////////////////////////////////
+
+
 def isort(xs: List[Int]):List[Int] = xs match{
   case List() => List()
   case y :: ys => insert(y,isort(ys))
