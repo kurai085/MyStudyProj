@@ -17,6 +17,7 @@ item.y
 
 item2.x
 item2.y
+
 ////////////////////////////////////////////////////////
 
 
@@ -67,3 +68,15 @@ var nums2 = 1::(2::(3::(4::Nil)))
 
 if(empty.isEmpty)
   empty
+
+
+/////////////////////////////////////////////
+//comprehension sequence
+
+def even(from: Int, to: Int): List[Int] =
+  for (i <- List.range(from, to) if i %2==0)
+    yield i
+
+ println(even(0,20))
+
+
