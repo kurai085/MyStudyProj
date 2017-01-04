@@ -30,7 +30,8 @@ def matchTest(x: Int) : Int = x match{
 
 
 /////////////////////////////////////////////////////////
-
+def removeAt(n: Int, xs:List[Int])=
+  (xs take n) ::: (xs drop n+1)
 
 def isort(xs: List[Int]):List[Int] = xs match{
   case List() => List()
@@ -39,9 +40,21 @@ def isort(xs: List[Int]):List[Int] = xs match{
 
 def insert(x:Int, xs:List[Int]):List[Int] = xs match{
   case List() => List(x)
-  case y:: ys=> if(x <= y) x::xs else y::insert(x,ys)
+  case y :: ys=> if(x <= y) x::xs else y::insert(x,ys)
 }
 
+def testOperator(x:Int,xs: List[Int]) : List[Int] = xs match {
+  case List() => List()
+  case y :: ys =>
+    //List (1,2,3,4,5)일 경우 y = x+1 값을 나타내며 ys는 x를 인덱스로 하여 그 뒤에있는 값들을 지칭한다.
+    if(x<=y) {
+      println(y)
+      println(ys)
+      x :: xs
+    }
+    else
+      y::testOperator(x,ys)
+}
 /*
 * var 는 getter / setter 모두 생겨 변수의 재초기화를 할 수 있으나
 * val 은 immutable 타입으로 getter만 생기기떄문에 할당은 불가능하고
@@ -60,11 +73,12 @@ fruit.head
 fruit.tail
 fruit.tail.head
 
-var nums = List(1,2,3,4)
+var nums = List(1,2,3,4,5)
 val empty = List()
 var nums2 = 1::(2::(3::(4::Nil)))
+var num3 = 1::2::3::4::5::Nil
 //define List construction
-
+testOperator(2, nums)
 
 if(empty.isEmpty)
   empty
