@@ -30,4 +30,5 @@ object exercise{
   fact(5)
   product_reduce(x=> x*x)(3,4)
   product(x=> x*x)(3,4)
+
 }

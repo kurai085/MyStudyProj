@@ -54,6 +54,26 @@ def testOperator(x:Int,xs: List[Int]) : List[Int] = xs match {
     else
       y::testOperator(x,ys)
 }
+
+
+class Operator(x:Int)
+{
+  def + (x:Int, y:Int) : Int = {
+    x + y
+  }
+
+  def GetNumber() =
+  {
+      x
+  }
+
+  def + (y:Operator) : Int =
+    x + y.GetNumber()
+}
+
+def sum(x :Operator, y:Operator) : Int =
+  x.GetNumber() + y.GetNumber()
+
 /*
 * var 는 getter / setter 모두 생겨 변수의 재초기화를 할 수 있으나
 * val 은 immutable 타입으로 getter만 생기기떄문에 할당은 불가능하고
@@ -76,6 +96,15 @@ var nums = List(1,2,3,4,5)
 val empty = List()
 var nums2 = 1::(2::(3::(4::Nil)))
 var num3 = 1::2::3::4::5::Nil
+var num4 = 2::3::4::5::6::7::8::Nil
+
+var op = new Operator(1)
+var op2 = new Operator(2)
+
+op + op2
+
+sum(op)
+
 //define List construction
 testOperator(2, nums)
 
