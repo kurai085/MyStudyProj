@@ -17,6 +17,7 @@ item.y
 
 item2.x
 item2.y
+
 ////////////////////////////////////////////////////////
 
 
@@ -110,3 +111,15 @@ testOperator(2, nums)
 
 if(empty.isEmpty)
   empty
+
+
+/////////////////////////////////////////////
+//comprehension sequence
+
+def even(from: Int, to: Int): List[Int] =
+  for (i <- List.range(from, to) if i %2==0)
+    yield i
+
+ println(even(0,20))
+
+
