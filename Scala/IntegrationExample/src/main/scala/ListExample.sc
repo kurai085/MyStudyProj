@@ -104,8 +104,6 @@ var op2 = new Operator(2)
 
 op + op2
 
-sum(op)
-
 //define List construction
 testOperator(2, nums)
 
